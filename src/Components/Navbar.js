@@ -32,22 +32,22 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <a href="#services" className="navbar-links">
+          <a href="#About" className="navbar-links">
             About
           </a>
         </li>
         <li>
-          <a href="#about" className="navbar-links">
+          <a href="#Services" className="navbar-links">
             Services
           </a>
         </li>
         <li>
-          <a href="#reviews" className="navbar-links">
+          <a href="#Portfolio" className="navbar-links">
             Portfolio
           </a>
         </li>
         <li>
-          <a href="#doctors" className="navbar-links">
+          <a href="#Contact" className="navbar-links">
             Contact Us
           </a>
         </li>
@@ -76,27 +76,27 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <a onClick={openNav} href="#services">
-              Services
-            </a>
-          </li>
-          <li>
-            <a onClick={openNav} href="#about">
+            <a onClick={openNav} href="#About">
               About
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#reviews">
-              Reviews
+            <a onClick={openNav} href="#Services">
+            Services
+            </a>
+          </li>
+          <li>
+            <a onClick={openNav} href="#Portfolio">
+            Portfolio
             </a>
           </li>
           <li>
             <a onClick={openNav} href="#doctors">
-              Doctors
+            Contact Us
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#contact">
+            <a onClick={openNav} href="#Contact">
               Contact
             </a>
           </li>
